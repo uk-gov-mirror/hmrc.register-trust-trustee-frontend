@@ -2,7 +2,7 @@ import play.sbt.routes.RoutesKeys
 
 lazy val appName: String = "register-trust-trustee-frontend"
 
-ThisBuild / scalaVersion := "2.13.16"
+ThisBuild / scalaVersion := "2.13.18"
 ThisBuild / majorVersion := 0
 
 lazy val root = (project in file("."))
